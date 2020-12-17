@@ -167,7 +167,7 @@ label {
     align-content: center;
     display: block;
     border-radius: 50px;
-    width: 35%;
+    width: 20%;
     border: none;
     margin-top: 50px;
     margin-bottom: 100px;
@@ -210,12 +210,6 @@ footer {
         padding: 0;
     }
 }
-
-/* @media all and (max-width: 1000px) {
-    .container-fluid {
-     border-radius: 60px;
-    }
-  } */
 
 #brand {
     text-decoration: underline;
