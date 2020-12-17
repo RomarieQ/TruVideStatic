@@ -185,6 +185,38 @@ footer {
     padding-bottom: 20px;
 }
 
+@media all and (min-width: 375px) {
+    footer, .card-text {
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .container-fluid {
+        border-radius: 20px;
+    }
+}
+
+@media all and (min-width: 375px) and (max-width: 1080px) {
+    .title, .card-title, .more-title, .card-title-2 {
+        font-size: larger;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .row, .g-0 {
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0;
+    }
+}
+
+/* @media all and (max-width: 1000px) {
+    .container-fluid {
+     border-radius: 60px;
+    }
+  } */
+
 #brand {
     text-decoration: underline;
 }
