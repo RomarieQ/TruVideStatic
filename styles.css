@@ -1,0 +1,101 @@
+body {
+    background-image: linear-gradient(180deg, #e1a56c 50%, #ee917c 50%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    align-items: center;
+    display: block;
+    margin: 30px auto 50px auto;
+    width: 25%;
+    height: auto;
+}
+
+.title {
+    font-family: 'AlbraMedium', serif;
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    margin: 0 3em .5em 3em;
+    line-height: 130%;
+}
+
+.bodyInfo {
+    color: white;
+    font-family: 'Daikon', sans-serif;
+    /* font-weight: 900; */
+    text-align: center;
+    font-size: 1.3vw;
+    margin: 0 13em 6em 13em;
+}
+
+.col-md-4, .card-body {
+    margin-top: 8em;
+}
+
+.container-fluid {
+    background-color: white;
+    width: auto;
+    border-radius: 60px;
+    width: 100%;
+    margin: 0;
+    padding-right: 4em;
+    padding-left: 4em;
+}
+
+.card-title {
+    font-family: 'AlbraMedium', serif;
+    color: #e1a56c;
+    font-size: 3vw;
+}
+
+.card {
+    border: none;
+}
+
+card-img-top {
+    border-radius: 15px;
+}
+
+.card-title-2 {
+    font-family: 'AlbraMedium', serif;
+    color: #6da847;
+    font-size: 3vw;
+}
+
+.card-title-2::before {
+    content: "";
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    left: 10%;
+    border-bottom: 2px solid #b6d3a3;
+}
+
+.card-text {
+    font-family: 'Daikon', sans-serif;
+    font-size: 1.3vw;
+}
+
+footer {
+    color: white;
+    font-family: 'Daikon', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 4px;
+    text-rendering: optimizeLegibility;
+    font-size: 1vw;
+    margin: 0 30em 1em 30em;
+}
+
+#brand {
+    text-decoration: underline;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
