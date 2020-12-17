@@ -18,7 +18,7 @@ body {
     font-family: 'AlbraMedium', serif;
     text-align: center;
     color: white;
-    font-size: 1em;
+    font-size: 3vw;
     margin: 0 2em 1em 2em;
     line-height: 130%;
 }
@@ -28,7 +28,8 @@ body {
     font-family: 'Daikon', sans-serif;
     /* font-weight: 900; */
     text-align: center;
-    font-size: .7em;
+    font-size: .8em;
+    /* font size was .7em if it looks bad on mobile, change back to .7 */
     margin: 0 15% 6em 15%;
 }
 
@@ -36,9 +37,26 @@ body {
     background-color: white;
     border-radius: 60px;
     width: 100%;
-    margin: 0;
-    padding-right: 4em;
-    padding-left: 4em;
+    margin: auto;
+    padding: 5em 4em 5em 4em;
+}
+
+.g-0 {
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+#img-top {
+    margin-top: 50px;
+}
+
+#img-middle {
+    /* margin-top: 25px; */
+    margin-bottom: 25px;
+}
+
+#img-bottom {
+    margin-bottom: 50px;
 }
 
 .card-title {
@@ -54,17 +72,14 @@ hr {
     border: none; 
     height: 2px; 
     background: #d7d7d7; 
-    margin-bottom: 50px;
+    margin-bottom: 16vh;
     opacity: .6;
+    width: 95%;
 }
 
 .card {
     border: none;
 }
-
-/* card-img-top {
-    border-radius: 15px;
-} */
 
 .card-title-2 {
     font-family: 'AlbraMedium', serif;
@@ -84,29 +99,52 @@ hr {
     font-size: .7em;
 }
 
+/* .card-text-2 {
+    padding-left: 0;
+} */
+
 .more-title {
     font-family: 'AlbraMedium', serif;
     color: white;
     font-size: 1em;
     text-align: center;
+    margin-top: 6em;
 }
 
 .hr-2 {
     position: relative; 
-    top: -10px; 
+    top: -5px; 
     border: none; 
     height: 2px; 
     background: #f4ae9e; 
     margin-bottom: 4px;
-    opacity: .6;
-    width: 10%;
+    width: 8%;
 }
+
+.card-text-more {
+    font-family: 'Daikon', sans-serif;
+    font-size: .7em;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    margin-bottom: 4em;
+}
+
+.row, .g-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* .last {
+    margin-left: -5vw;
+    margin-right: 144px;
+   justify-content: first baseline;
+} */
 
 label {
     color: white;
     font-family: 'Daikon', sans-serif;
     font-size: 12px;
-    padding-left: 80px;
+    padding-left: 15%;
     padding-top: 12px;
     margin-bottom: -10px;
 }
@@ -143,7 +181,7 @@ footer {
     padding-top: 4px;
     text-rendering: optimizeLegibility;
     font-size: 10px;
-    /* margin: 0 30em 1em 30em; */
+    margin: 0 15em 1em 15em;
     padding-bottom: 20px;
 }
 
