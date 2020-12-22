@@ -39,20 +39,28 @@ body {
     width: 100%;
     margin: auto;
     padding: 5em 4em 5em 4em;
+    justify-content: space-between;
 }
 
 .g-0 {
     margin-right: 2vw;
     margin-left: 2vw;
-}
-
-#img-top {
     margin-top: 50px;
 }
 
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
 #img-middle {
-    /* margin-top: 25px; */
-    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;  
+}
+
+#text-mid {
+    float: left;
+    display: flex;
 }
 
 #img-bottom {
