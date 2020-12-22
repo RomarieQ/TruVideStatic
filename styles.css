@@ -18,7 +18,7 @@ body {
     font-family: 'AlbraMedium', serif;
     text-align: center;
     color: white;
-    font-size: 3vw;
+    font-size: 2vw;
     margin: 0 2em 1em 2em;
     line-height: 130%;
 }
@@ -28,7 +28,7 @@ body {
     font-family: 'Daikon', sans-serif;
     /* font-weight: 900; */
     text-align: center;
-    font-size: .8em;
+    font-size: 1em;
     /* font size was .7em if it looks bad on mobile, change back to .7 */
     margin: 0 15% 6em 15%;
 }
@@ -62,7 +62,7 @@ body {
 .card-title {
     font-family: 'AlbraMedium', serif;
     color: #e1a56c;
-    font-size: 1em;
+    font-size: 2vw;
 }
 
 hr {
@@ -84,7 +84,7 @@ hr {
 .card-title-2 {
     font-family: 'AlbraMedium', serif;
     color: #6da847;
-    font-size: 1em;
+    font-size: 2vw;
 }
 
 .card-title-2:after {
@@ -96,7 +96,7 @@ hr {
 
 .card-text {
     font-family: 'Daikon', sans-serif;
-    font-size: .7em;
+    font-size: 1em;
 }
 
 /* .card-text-2 {
@@ -106,7 +106,7 @@ hr {
 .more-title {
     font-family: 'AlbraMedium', serif;
     color: white;
-    font-size: 1em;
+    font-size: 2vw;
     text-align: center;
     margin-top: 6em;
 }
@@ -123,10 +123,12 @@ hr {
 
 .card-text-more {
     font-family: 'Daikon', sans-serif;
-    font-size: .7em;
+    font-size: 1em;
     margin-right: 15vw;
     margin-left: 15vw;
     margin-bottom: 4em;
+    color: white;
+    text-align: center;
 }
 
 .row, .g-3 {
@@ -143,7 +145,7 @@ hr {
 label {
     color: white;
     font-family: 'Daikon', sans-serif;
-    font-size: 12px;
+    font-size: 1em;
     padding-left: 15%;
     padding-top: 12px;
     margin-bottom: -10px;
@@ -180,7 +182,7 @@ footer {
     text-decoration: none;
     padding-top: 4px;
     text-rendering: optimizeLegibility;
-    font-size: 10px;
+    font-size: .8em;
     margin: 0 15em 1em 15em;
     padding-bottom: 20px;
 }
